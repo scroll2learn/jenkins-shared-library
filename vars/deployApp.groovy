@@ -3,7 +3,7 @@ def call(String environmentName = "production") {
 
     sh '''
         echo "Deploying command is running"
-        echo "Environment " ${environmentName}"
+        echo "Environment: ${environmentName}"
         echo "Deployment Completed"
         '''
 }
